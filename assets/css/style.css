@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+.title {
+    color: yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 68px;
+    text-align: center;
+    border: 20px;
+    padding-bottom: 40px;
+}
+
+.images {
+    padding: 40px;
+}
+
+.instructions,
+.tracker
+ {
+    border-style: solid;
+    border-radius: 25px;
+    background-color: gray;
+    padding: 10px;
+    color: whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+span {
+    color: blueviolet;
+}
+
+img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+  
+}
+
+
